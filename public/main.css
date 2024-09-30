@@ -1,0 +1,72 @@
+body{
+    p{font-weight: bold;}
+}
+.choose_Course{
+    font-size: medium;
+    font-weight: bold;
+}
+
+h4{
+    margin-bottom: 8px;
+}
+li{   
+    max-width: 20%;
+    font-weight: bolder;
+}
+
+/* Using Class */
+.listItems{
+    background-color:gray ;
+}
+
+/* Using Ids */
+#imp{
+    background-color: green;
+    font-weight: bold;
+}
+
+.imgContainer{
+    display: grid;
+    place-items: center;
+    background-color: white;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 65px;
+    }
+        
+#logo{
+    width: 20%;
+    height: auto;   
+}
+
+.sign_buttons a{
+        color: black;
+        display: inline-block;
+        justify-content: center;
+        width: 20%;
+        margin-top: 75px;
+        margin-left: 50px;
+        padding: 10px;
+        background-color: rgb(151, 158, 156);
+        cursor: pointer;
+        border-radius: 4px;
+        border: solid;
+        text-align: center;
+        font-weight: 500;
+}
+
+.table_docs{
+    padding-top: 25px ;
+    padding-left: 50px;
+}
+.headings{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#batchSelect{
+    width: 20%;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+
+}

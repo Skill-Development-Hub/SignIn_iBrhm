@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Using External CSS -->
+    <link rel="stylesheet" href="./public/main.css">
+    <link rel="icon" href="/public/assets/SD hub.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SdHUB</title>
+    <!-- Using Internal CSS -->
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Using inline CSS style -->
+    <!-- <h1 style="color: maroon;">Sd-Hub</h1>  -->
+    <div class="imgContainer">
+        <img id="logo" src="./public/assets/SD hub.png">
+    </div>
+
+    <h2 style="color: blue;">Hello Students,</h2>
+    <p>This is an institute of latest technologies. That helps learning people to meet the industrial criteria and get them job ready.
+    </p>
+ <div class="headings">
+    <h3>Select your desired courses from avaiable below </h3>
+</div>
+    <div class="choose_Course">
+        <input type="checkbox" id="checkBoxCourses"> Web Development</input><br>
+        <input type="checkbox" id="checkBoxCourses"> Graphics Desining</input><br>
+        <input type="checkbox" id="checkBoxCourses"> Tally accounting</input><br>
+        <input type="checkbox" id="checkBoxCourses"> UI/UX Desining</input><br>
+        <input type="checkbox" id="checkBoxCourses"> GST accounts</input>
+    </div>
+
+    <div class="dropdownBatch">
+    <div class="headings">
+        <label for="batchSelect">Choose your Batch :</label>
+    
+        <select name="options" id="batchSelect">
+            <option value="batch1">Batch 1</option>
+            <option value="batch2">Batch 2</option>
+            <option value="batch3">Batch 3</option>
+            <option value="batch4">Batch 4</option>
+        </select>
+    </div>
+    </div>
+
+    <div class="sign_buttons">
+        <a id="login" href="login/login.html">Login</a>
+        <a id="register" href="register/register.html">Register</a>
+    </div>
+
+    <div class="table_docs">
+        <table>
+            <h4>Documents required for admission</h4>
+            <li type="1" class="listItems" id="imp">Govt. Id proof</li>
+            <li type="1" class="listItems">Latest qualification Document</li>
+            <li type="1" class="listItems" id="imp">Passport size photos</li>
+            <li type="1" class="listItems">College Id</li>
+        </table>
+    </div>
+
+</body>
+
+</html>
